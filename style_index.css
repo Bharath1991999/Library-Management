@@ -1,0 +1,72 @@
+body {
+	background-image: url('cover.jpg');
+	background-size: 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 3px solid #80888e;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 35%;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+	text-align: center;
+	border-radius: 14px;
+}
+
+.txt {
+	font-family: monospace;
+	font-size: 30px;
+	color: white;
+}
+
+h1 {
+	font-family: monospace;
+	font-size: 45px;
+	text-align: center;
+	color: black;
+	background-color: rgba(224,255,249,0.3);
+	border-radius: 40px;
+	top: 0%;
+	width: 100%;
+	
+}
+
+a {
+	color: #000;
+	font-family: cursive;
+	text-decoration: none;
+	font-size: 35px;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+.bounce {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.bounce:hover, .bounce:focus, .bounce:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
